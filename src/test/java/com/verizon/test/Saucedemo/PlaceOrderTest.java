@@ -24,7 +24,6 @@ public class PlaceOrderTest extends BaseTest{
 	ConfirmationPage confirmationPage;
 	@Test(dataProvider = "getData")
 	public void PlaceOrder(String username,String password,String itemName) throws Exception {
-		//String itemName = "Sauce Labs Backpack";
 		landingpage=launchApplication(username, password);
 		CartPage cartPage=landingpage.addProductToCart(itemName);
 		checkoutPage=landingpage.goToCart();

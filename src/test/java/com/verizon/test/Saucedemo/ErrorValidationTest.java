@@ -17,6 +17,7 @@ public class ErrorValidationTest extends BaseTest{
 public void errorValidate(String username, String password) throws IOException
 {
 	launchApplication(username,password);
+	System.out.println("Error Validation done");
 }
 
 @DataProvider(name = "getData")
