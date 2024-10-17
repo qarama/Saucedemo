@@ -31,6 +31,7 @@ public class PlaceOrderTest extends BaseTest{
 		reviewPage=checkoutPage.checkountInfo();
 		confirmationPage=reviewPage.reviewOrder();
 		Assert.assertEquals(confirmationPage.getConformMessage(), "Thank you for your order!");
+	//Place order
 	}
 	
 	
