@@ -16,7 +16,6 @@ public class ErrorValidationTest extends BaseTest{
 @Test(dataProvider = "getData")
 public void errorValidate(String username, String password) throws IOException
 {
-	//Error
 	launchApplication(username,password);
 }
 
